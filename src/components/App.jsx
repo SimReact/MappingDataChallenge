@@ -5,7 +5,7 @@ import Term from "./Term";
 function listAllEmoji(emoji) {
   return (
     <Term
-      id={emoji.id}
+      key={emoji.id}
       name={emoji.name}
       emoji={emoji.emoji}
       meaning={emoji.meaning}
